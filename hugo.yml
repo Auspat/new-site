@@ -1,4 +1,4 @@
-baseURL: ""
+baseURL: "https://austinrodriguez.netlify.app/"
 languageCode: en-us
 title: Austin Rodriguez
 theme: PaperMod
