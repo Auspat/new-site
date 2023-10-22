@@ -1,0 +1,43 @@
+baseURL: ""
+languageCode: en-us
+title: Austin Rodriguez
+theme: PaperMod
+
+params:
+  homeInfoParams:
+    Title: "About Me"
+    Content: Hello and welcome to my portfolio site. My name is Austin, and I am a senior studying Computer Science and German at the University of Arkansas. I am currently in an exchange program at Technische Universität Darmstadt, and I am looking for internships in the United States or Germany in the field of Video Game Development for the months March 2024 - July 2024. Below, you will find how to contact me as well as a portfolio of my past and current projects.
+          I am a lifelong learner and constantly seek opportunities to grow and adapt to the ever-evolving industry landscape. My approach is rooted in learning new technologies and ways to connect virtually, and I am committed to making the best meaningful games for future generations to enjoy.
+  socialIcons:
+    - name: Email
+      url: "https://cloudhq.net/s/25fce73447b5d9"
+    - name: LinkedIn
+      url: "https://www.linkedin.com/in/austin-rodriguez-0a40a8207/"
+    - name: Youtube
+      url: "https://youtu.be/0AIlBhPH_10"  
+
+  covers:
+    linkFullImages: true
+
+  ShowBreadCrumbs: true
+
+  ShowReadingTime: false
+
+  ShowShareButtons: false
+
+  ShowPostNavLinks: true
+
+menu:
+  main:
+    - identifier: categories
+      name: Categories
+      url: /categories/
+      weight: 10
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 20
+    - identifier: archives
+      name: Archives
+      url: /archives/
+      weight: 30
